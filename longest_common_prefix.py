@@ -13,8 +13,11 @@ def longest_common_prefix(strs: List[str]):
     if len(unique_chars) == 1:
       prefix += unique_chars[0]
       continue
+      
+    else:
+      break
 
-  return prefix;
+  return prefix
 
 
 input = ["flower","flow","flight"]
